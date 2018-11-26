@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+
+            <ImageButton
+                android:id="@+id/DoubleBedButton"
+                android:layout_width="match_parent"
+                android:layout_height="242dp"
+                app:srcCompat="@drawable/dbpopbg"
+
+                />
+
+            <ImageButton
+                android:id="@+id/TwinBedButton"
+                android:layout_width="match_parent"
+                android:layout_height="242dp"
+                app:srcCompat="@drawable/tbpopbg" />
+
+            <ImageButton
+                android:id="@+id/SuiteRoom"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/srpopbg" />
+
+            <ImageButton
+                android:id="@+id/FacilityButton"
+                android:layout_width="499dp"
+                android:layout_height="124dp"
+                app:srcCompat="@drawable/facility" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/suiteroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="492dp"
+                android:clickable="false"
+                android:text="@string/suiteroom"
+                android:textColor="@color/black"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="0dp" />
+
+            <TextView
+                android:id="@+id/twinbed"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="245dp"
+                android:clickable="false"
+                android:text="@string/twinbed"
+                android:textColor="@color/black"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/doublebed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/doublebed"
+                android:textColor="@color/black"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Facility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="785dp"
+                android:clickable="false"
+                android:text="Facility"
+                android:textColor="#FFFFFF"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/dbinfo"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/dbinfo"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp" />
+
+
+        <Button
+            android:id="@+id/srinfo"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/srinfo"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp" />
+
+        <Button
+            android:id="@+id/tbinfo"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="258dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/tbinfo"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

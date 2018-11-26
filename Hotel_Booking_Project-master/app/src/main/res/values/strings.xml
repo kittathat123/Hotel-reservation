@@ -1,0 +1,75 @@
+<resources>
+    /*first_page*/
+    <string name="app_name">Hotel_Booking</string>
+    <string name="Delio_Boutique_Hotel">Delio Boutique Hotel</string>
+
+    <string name="check_in">Check-in</string>
+    <string name="check_in_DATE_PICKER">XX_XXX_XXXX</string>
+
+
+    <string name="check_out">Check-out</string>
+    <string name="check_out_DATE_PICKER">XX_XXX_XXXX</string>
+
+    <string name="room_and_family">1 Room 1 Adults 0 children</string>
+
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name_editText">Insert first name</string>
+    <string name="last_name_editText">Insert last name</string>
+
+    <string name="name_auto_fillhint">username</string>
+    <string name="email">Email</string>
+    <string name="email_editText">Please insert your email</string>
+    <string name="phone">Phone</string>
+    <string name="phone_editText">Please insert your phone number</string>
+    <string name="next_button">NEXT</string>
+
+
+    /*Arrow*/
+    <string name="back_arrow">\u2190</string>
+    <string name="arrow">\u21E8</string>
+
+    /*Button*/
+    <string name="minus">\u2796</string>
+    <string name="plus">\u2795</string>
+
+    /*second_page*/
+    <string name="guests">Guests details</string>
+    <string name="rooms"> 1 Room</string>
+    <string name="adult"> 1 Adult</string>
+    <string name="children"> 0 Children</string>
+    <string name="ok"> ok</string>
+
+    <string name="dbinfo">i</string>
+    <string name="tbinfo">i</string>
+    <string name="srinfo">i</string>
+    <string name="doublebed">  Double Bed  </string>
+    <string name="twinbed">  Twin Bed  </string>
+    <string name="suiteroom">  Suite Room  </string>
+    <string name="description">Description</string>
+    <string name="doublebedinfo">DoubleBed Room</string>
+    <string name="twinbedinfo">Twin Bed Room</string>
+    <string name="suiteroominfo">Suite Room</string>
+    <string name="tbinformation">Spacious,suitable for couple or alone traveller to enjoy and relax, bright and outward facing rooms. The Room comes with a Large semi king size modern style bed, fully equipped bathroom.\n\n - 1-2 People\n - 1 Large Bed\n - Standard Furnishing\n - Air conditioner\n - Flat TV Screen\n - Satellite Channels\n - Hair Dryer\n - Free Wi-Fi\n\n Breakfast Included\n Price: 700 Baht</string>
+    <string name="dbinformation">Comfort, bright and outward facing rooms. The Room comes with 2 modern style bed, fully equipped bathroom.\n\n - 1-2 People\n - 2 Seperated Bed\n - Standard Furnishing\n - Air conditioner\n - Flat TV Screen\n - Satellite Channels\n - Hair Dryer\n - Free Wi-Fi\n\n Breakfast Included\n Price: 700 Baht</string>
+    <string name="srinformation">Luxury and elegantly decorated. Feature a master bedroom, bathroom and living area.\n\n - 1-3 People\n - 1 king-sized Bed\n - Air conditioner\n - Curved TV Screen\n - Satellite Channels\n - Hair Dryer\n - Mini bar\n - Smoking area\n - Free Wi-Fi\n - Build-in Kitchen\n\n Breakfast Included\n Price: 1500 Baht</string>
+
+
+    /*Third page*/
+    <!-- all the TextView -->
+    <string name="Invoice_top">Invoice_TextView</string>
+    <string name="Name_View">Name_TextView</string>
+    <string name="Surname_View">Surname_TextView</string>
+    <string name="lobby">1</string>
+    <string name="Phone_View">Phone_TextView</string>
+    <string name="Email_View">Email_TextView</string>
+    <string name="People_View">People_TextView</string>
+    <string name="Room_View">Room_TextView</string>
+    <string name="Check_Out_View">Chechk_Out_TextView</string>
+    <string name="Check_In_View">Check_In_TextView</string>
+    <string name="Payment_View">Payment_TextView</string>
+    <string name="Horizontal_Line">Line_View</string>>
+    <!-- all the Button -->
+    <string name="Confirm">Confirm_Button</string>
+
+</resources>
